@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Roboto Slab', serif;
+  font-style: normal;
+  font-size: 14px;
+  text-align: justify;
+  letter-spacing: 2px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.title-section {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 35px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.member {
+  width: ;
+  height: ;
+}
+
+.role {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 25px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.name {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 20px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.icons {
+  ;
+  ;
+}
+
+.sw {
+  left-padding: 5%;
+}
+
+
+  .right {
+    display: flex;
+    justify-content: flex-end;
+  }
