@@ -17,9 +17,17 @@ body {
   font-family: 'Roboto', sans-serif;
   font-style: italic;
   font-weight: lighter;
-  font-size: 35px;
-  letter-spacing: 10px;
+  font-size: 1.5em;
+  letter-spacing: 0.625em;
   text-transform: uppercase;
+  background-image: linear-gradient(to right,lightgray, lightgray);
+  background-size: 100% 30%;
+  padding-bottom: 0.25%;
+  background-position: bottom 0.3em left,
+                      center right,
+                      top 5px left;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+
 }
 
 .member {
@@ -31,8 +39,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-style: italic;
   font-weight: lighter;
-  font-size: 25px;
-  letter-spacing: 5px;
+  font-size: 1.79em;
+  letter-spacing: 1em;
   text-transform: uppercase;
 }
 
@@ -40,8 +48,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: lighter;
-  font-size: 20px;
-  letter-spacing: 5px;
+  font-size: 1.43em;
+  letter-spacing: 1em;
   text-transform: uppercase;
 }
 
@@ -55,7 +63,9 @@ body {
 }
 
 
-  .right {
-    display: flex;
-    justify-content: flex-end;
-  }
+.title-section.right {
+  display: flex;
+  justify-content: flex-end;
+
+
+}
