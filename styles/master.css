@@ -34,6 +34,11 @@ body {
   width: ;
   height: ;
 }
+.presentation-right {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+}
 
 .role {
   font-family: 'Roboto', sans-serif;
@@ -42,6 +47,8 @@ body {
   font-size: 1.79em;
   letter-spacing: 1em;
   text-transform: uppercase;
+  width: 100%;
+  height: auto;
 }
 
 .name {
@@ -54,8 +61,20 @@ body {
 }
 
 .icons {
-  ;
-  ;
+  background-image: linear-gradient(to right,black, black);
+  background-size: 100% 30%;
+
+  background-position: bottom 50% left,
+                      center right,
+                      top 5px left;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  text-decoration: none;
+
+}
+.right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .sw {
@@ -64,8 +83,6 @@ body {
 
 
 .title-section.right {
-  display: flex;
-  justify-content: flex-end;
-
+text-align: right;
 
 }
