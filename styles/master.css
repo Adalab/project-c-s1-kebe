@@ -15,6 +15,10 @@ body {
 
 span {
   letter-spacing: 2px;
+<<<<<<< HEAD
+=======
+  text-transform: uppercase;
+>>>>>>> 3eeb4acf9fa600c4fd097b873b199c3097b13ddc
 }
 
 
@@ -28,10 +32,9 @@ span {
   background-image: linear-gradient(to right,lightgray, lightgray);
   background-size: 100% 30%;
   padding-bottom: 0.25%;
-  background-position: bottom 0.3em left,
-                      center right,
-                      top 5px left;
-  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: bottom 0.3em left;
+  background-repeat: no-repeat;
+  margin: 0;
 
 }
 
@@ -99,4 +102,28 @@ text-align: right;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+}
+
+
+.footer-kebe {
+  background-color: #555555;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+  bottom: 0;
+  left: 0;
+}
+
+.copy {
+  color: white;
+  font-size: 80%;
+  padding: 5px;
+}
+
+.adalab-style {
+  color: #3CDBC0;
+  font-size: 80%;
+  padding: 5px;
 }
