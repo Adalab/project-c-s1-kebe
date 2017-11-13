@@ -13,6 +13,11 @@ body {
   margin-right: 5%;
 }
 
+span {
+  letter-spacing: 2px;
+}
+
+
 .title-section {
   font-family: 'Roboto', sans-serif;
   font-style: italic;
@@ -68,4 +73,14 @@ body {
   justify-content: flex-end;
 
 
+}
+
+
+.footer-kebe {
+  background-color: #555555;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
