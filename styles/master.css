@@ -13,6 +13,11 @@ body {
   margin-right: 5%;
 }
 
+span {
+  letter-spacing: 2px;
+}
+
+
 .title-section {
   font-family: 'Roboto', sans-serif;
   font-style: italic;
@@ -34,6 +39,11 @@ body {
   width: ;
   height: ;
 }
+.presentation-right {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+}
 
 .role {
   font-family: 'Roboto', sans-serif;
@@ -42,6 +52,8 @@ body {
   font-size: 1.79em;
   letter-spacing: 1em;
   text-transform: uppercase;
+  width: 100%;
+  height: auto;
 }
 
 .name {
@@ -54,8 +66,20 @@ body {
 }
 
 .icons {
-  ;
-  ;
+  background-image: linear-gradient(to right,black, black);
+  background-size: 100% 30%;
+
+  background-position: bottom 50% left,
+                      center right,
+                      top 5px left;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  text-decoration: none;
+
+}
+.right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .sw {
@@ -64,10 +88,18 @@ body {
 
 
 .title-section.right {
+text-align: right;
+
+}
+
+
+.footer-kebe {
+  background-color: #555555;
+  width: 100%;
   display: flex;
-  justify-content: flex-end;
-
-
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 .title-section-center{
   text-transform: uppercase;
