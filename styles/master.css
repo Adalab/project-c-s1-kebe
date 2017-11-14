@@ -67,6 +67,8 @@ justify-content:  space-between;
 .phrase {
   text-transform: uppercase;
   text-align: center;
+  font-family: sans-serif;
+  font-weight: lighter;
 }
 .subtitle-phrase {
   background-image: linear-gradient(to right, lightgray, lightgray);
