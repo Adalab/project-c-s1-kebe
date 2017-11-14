@@ -60,6 +60,7 @@ justify-content:  space-between;
 
 .kebe {
   width: 100%;
+  position: relative;
 }
 .kati,.estela,.belen,.elena {
   position: absolute;
