@@ -55,6 +55,28 @@ justify-content:  space-between;
   color:#3CDBC0;
 }
 
+.kebe {
+  width: 100%;
+}
+.kati,.estela,.belen,.elena {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.phrase {
+  text-transform: uppercase;
+  text-align: center;
+}
+.subtitle-phrase {
+  background-image: linear-gradient(to right, lightgray, lightgray);
+  background-size: 100% 50%;
+  padding-bottom: 0.25%;
+  background-position: bottom 0.6em left;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
 
 .title-section {
   font-family: 'Roboto', sans-serif;
