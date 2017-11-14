@@ -17,6 +17,9 @@ span {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+.margin-header {
+  margin-bottom: 20%;
+}
 
 .header-kebe {
   width: 100%;
