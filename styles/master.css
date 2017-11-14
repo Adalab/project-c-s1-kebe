@@ -113,17 +113,13 @@ text-align: right;
 }
 
 .resize2 {
+  flex-direction: row;
   float: left;
-  height: 25em;
   margin: .2em 1em 1em 0;
-  overflow: hidden;
-  width: 20em;
+  width: 100%;
+  height: auto;
 }
 
-.resize2 img {
-  margin: -220px 0 0 -210px;
-  padding: 6em 0 0 6em;
-}
-height: auto;
-max-width: 10%;
+.images {
+  width: 58%;
 }
