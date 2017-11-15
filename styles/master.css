@@ -58,21 +58,21 @@ justify-content:  space-between;
   color:#3CDBC0;
 }
 
+.hero {
+  margin: 130px 0;
+}
 .kebe {
   width: 100%;
-  position: relative;
+  margin-bottom: 150px;
 }
-.kati,.estela,.belen,.elena {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
+
 .phrase {
   text-transform: uppercase;
   text-align: center;
+  font-size: 0.7em;
   font-family: sans-serif;
   font-weight: lighter;
+  font-style: italic;
 }
 .subtitle-phrase {
   background-image: linear-gradient(to right, lightgray, lightgray);
