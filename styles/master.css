@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   font-family: 'Roboto Slab', serif;
   font-style: normal;
@@ -139,8 +138,12 @@ justify-content:  space-between;
                       top 5px left;
   background-repeat: no-repeat, no-repeat, no-repeat;
   text-decoration: none;
-
 }
+
+a {
+  text-decoration: none;
+}
+
 .right {
   display: flex;
   flex-wrap: wrap;
