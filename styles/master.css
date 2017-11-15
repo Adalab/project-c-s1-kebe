@@ -17,6 +17,9 @@ span {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+.margin-header {
+  margin-bottom: 20%;
+}
 
 .header-kebe {
   width: 100%;
@@ -53,6 +56,31 @@ justify-content:  space-between;
 .header-li:hover  {
   text-decoration: underline;
   color:#3CDBC0;
+}
+
+.hero {
+  margin: 130px 0;
+}
+.kebe {
+  width: 100%;
+  margin-bottom: 150px;
+}
+
+.phrase {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.7em;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-style: italic;
+}
+.subtitle-phrase {
+  background-image: linear-gradient(to right, lightgray, lightgray);
+  background-size: 100% 50%;
+  padding-bottom: 0.25%;
+  background-position: bottom 0.6em left;
+  background-repeat: no-repeat;
+  margin: 0;
 }
 
 
