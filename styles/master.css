@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   font-family: 'Roboto Slab', serif;
   font-style: normal;
@@ -15,6 +14,9 @@ body {
 span {
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+.margin-header {
+  margin-bottom: 20%;
 }
 
 .header-kebe {
@@ -52,6 +54,31 @@ justify-content:  space-between;
 .header-li:hover  {
   text-decoration: underline;
   color:#3CDBC0;
+}
+
+.hero {
+  margin: 130px 0;
+}
+.kebe {
+  width: 100%;
+  margin-bottom: 150px;
+}
+
+.phrase {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.7em;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-style: italic;
+}
+.subtitle-phrase {
+  background-image: linear-gradient(to right, lightgray, lightgray);
+  background-size: 100% 50%;
+  padding-bottom: 0.25%;
+  background-position: bottom 0.6em left;
+  background-repeat: no-repeat;
+  margin: 0;
 }
 
 
@@ -109,8 +136,12 @@ justify-content:  space-between;
                       top 5px left;
   background-repeat: no-repeat, no-repeat, no-repeat;
   text-decoration: none;
-
 }
+
+a {
+  text-decoration: none;
+}
+
 .right {
   display: flex;
   flex-wrap: wrap;
@@ -178,8 +209,9 @@ text-align: right;
 }
 
 .images {
-  width: 58%;
+  width: 100%;
 }
+
 .title-section-center{
   font-family: 'Roboto', sans-serif;
   font-style: italic;
