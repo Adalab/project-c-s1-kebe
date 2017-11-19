@@ -2,13 +2,11 @@
   box-sizing: border-box;
 }
 
-
 body {
   font-family: 'Roboto Slab', serif;
   font-style: normal;
-  font-size: 14px;
+  font-size: 12px;
   text-align: justify;
-  letter-spacing: 2px;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -65,22 +63,23 @@ span {
   color:#3CDBC0;
 }
 
+.hero {
+  margin: 130px 0;
+}
 .kebe {
   width: 100%;
-  position: relative;
-}
-.kati,.estela,.belen,.elena {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
   margin-top: 20%;
+  margin-bottom: 150px;
+
 }
+
 .phrase {
   text-transform: uppercase;
   text-align: center;
+  font-size: 0.7em;
   font-family: sans-serif;
   font-weight: lighter;
+  font-style: italic;
 }
 .subtitle-phrase {
   background-image: linear-gradient(to right, lightgray, lightgray);
@@ -105,6 +104,7 @@ span {
   background-position: bottom 0.3em left;
   background-repeat: no-repeat;
   margin: 0;
+  margin-top: 25%;
 
 }
 
@@ -123,7 +123,6 @@ span {
   font-style: italic;
   font-weight: lighter;
   font-size: 1.79em;
-  letter-spacing: 1em;
   text-transform: uppercase;
   width: 100%;
   height: auto;
@@ -134,7 +133,6 @@ span {
   font-style: normal;
   font-weight: lighter;
   font-size: 1.43em;
-  letter-spacing: 1em;
   text-transform: uppercase;
 }
 
@@ -147,8 +145,12 @@ span {
                       top 5px left;
   background-repeat: no-repeat, no-repeat, no-repeat;
   text-decoration: none;
-
 }
+
+a {
+  text-decoration: none;
+}
+
 .right {
   display: flex;
   flex-wrap: wrap;
@@ -169,7 +171,6 @@ text-align: right;
   font-style: italic;
   font-weight: lighter;
   font-size: 2.25em;
-  letter-spacing: 0.625em;
   text-transform: uppercase;
   text-align: center;
 
@@ -181,9 +182,10 @@ text-align: right;
   background-image: linear-gradient(to right,lightgray, lightgray);
   background-size: 100% auto;
   border-top: 5px solid #555555;
-  background-position:top 50px left;
+  background-position:top 40px left;
   background-repeat: no-repeat, no-repeat, no-repeat;
   padding: 0 5px;
+  margin-top: 25%;
 
 }
 
@@ -216,8 +218,9 @@ text-align: right;
 }
 
 .images {
-  width: 58%;
+  width: 100%;
 }
+
 .title-section-center{
   font-family: 'Roboto', sans-serif;
   font-style: italic;
