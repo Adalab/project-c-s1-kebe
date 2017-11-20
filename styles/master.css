@@ -186,6 +186,7 @@ margin-top: -130px;
 .text-center-final{
   text-align: right;
 }
+
 .final-section{
   background-image: linear-gradient(to right,lightgray, lightgray);
   background-size: 100% auto;
@@ -194,7 +195,6 @@ margin-top: -130px;
   background-repeat: no-repeat, no-repeat, no-repeat;
   padding: 0 15px;
   margin-top: 25%;
-
 }
 
 .footer-kebe {
@@ -226,7 +226,7 @@ margin-top: -130px;
 }
 
 .images {
-  width:20em;
+  width:13em;
 }
 
 .title-section-center{
