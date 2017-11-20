@@ -170,7 +170,7 @@ text-align: right;
   text-align: right;
 }
 .final-section{
-  background-image: linear-gradient(to right,lightgray, lightgray);
+  background-image: linear-gradient(to right,lightgray, white);
   background-size: 100% auto;
   border-top: 5px solid #555555;
   background-position:top 50px left;
