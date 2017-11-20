@@ -73,6 +73,10 @@ span {
 
 }
 
+.estela, .belen, .elena {
+  margin-top: 25%;
+}
+
 .phrase {
   text-transform: uppercase;
   text-align: center;
