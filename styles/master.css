@@ -103,7 +103,7 @@ span {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   background-image: linear-gradient(to right,lightgray, lightgray);
-  background-size: 100% 50%;
+  background-size: 100% 13%;
   padding-bottom: 0.25%;
   background-position: bottom 0.3em left;
   background-repeat: no-repeat;
@@ -163,12 +163,12 @@ a {
 
 .title-section.right {
 text-align: right;
-border: solid transparent 150px;
+border-top: solid transparent 150px;
 margin-top: -130px;
 }
 
 .title-section.left {
-  border: solid transparent 150px;
+  border-top: solid transparent 150px;
   margin-top: -130px;
 }
 
@@ -179,7 +179,7 @@ margin-top: -130px;
   font-size: 2.25em;
   text-transform: uppercase;
   text-align: center;
-  border: solid transparent 150px;
+  border-top: solid transparent 150px;
   margin-top: -130px;
 }
 
