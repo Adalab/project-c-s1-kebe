@@ -96,7 +96,7 @@ span {
   font-style: italic;
   font-weight: lighter;
   font-size: 1.5em;
-  letter-spacing: 0.625em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   background-image: linear-gradient(to right,lightgray, lightgray);
   background-size: 100% 50%;
@@ -126,6 +126,7 @@ span {
   text-transform: uppercase;
   width: 100%;
   height: auto;
+  margin: 0;
 }
 
 .name {
@@ -134,16 +135,14 @@ span {
   font-weight: lighter;
   font-size: 1.43em;
   text-transform: uppercase;
+  margin-top: 5px;
 }
 
 .icons {
   background-image: linear-gradient(to right,black, black);
   background-size: 100% 30%;
-
-  background-position: bottom 50% left 10px,
-                      center right,
-                      top 5px left;
-  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: bottom 50% left 0px;
+  background-repeat: no-repeat;
   text-decoration: none;
 }
 
@@ -184,7 +183,7 @@ text-align: right;
   border-top: 5px solid #555555;
   background-position:top 40px left;
   background-repeat: no-repeat, no-repeat, no-repeat;
-  padding: 0 5px;
+  padding: 0 15px;
   margin-top: 25%;
 
 }
@@ -218,7 +217,7 @@ text-align: right;
 }
 
 .images {
-  width:20em; 
+  width:20em;
 }
 
 .title-section-center{
@@ -226,7 +225,7 @@ text-align: right;
   font-style: italic;
   font-weight: lighter;
   font-size: 2.25em;
-  letter-spacing: 0.625em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   text-align: center;
 
