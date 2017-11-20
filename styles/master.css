@@ -5,7 +5,7 @@
 body {
   font-family: 'Roboto Slab', serif;
   font-style: normal;
-  font-size: 12px;
+  font-size: 16px;
   text-align: justify;
   margin-left: 5%;
   margin-right: 5%;
@@ -27,7 +27,7 @@ span {
   background-color: #555555;
   opacity: 0.8;
   color:white;
-  font-size: 1.6em;
+  font-size: 1.2em;
   font-family: sans-serif;
   z-index: 1;
   padding: 0 20px;
@@ -116,11 +116,7 @@ span {
   width: ;
   height: ;
 }
-.presentation-right {
-  display: flex;
-  flex-direction: column;
-  align-content: flex-end;
-}
+
 
 .role {
   font-family: 'Roboto', sans-serif;
@@ -224,13 +220,17 @@ margin-top: -130px;
 .resize2 {
   flex-direction: row;
   float: left;
-  margin: .2em 1em 1em 0;
+  margin: .2em 1em 1em 0em;
   width: 100%;
   height: auto;
 }
 
 .images {
+<<<<<<< HEAD
   width:20em;
+=======
+  width:15em;
+>>>>>>> 5e6aba88e44cc7288c335608138372be4d5a8457
 }
 
 .title-section-center{
@@ -273,6 +273,22 @@ margin-top: -130px;
  .a-hidden-small:hover  {
    text-decoration: underline;
    color:#3CDBC0;
+ }
+
+ .kebe {
+   margin-top: -5%;
+   margin-bottom: 40px;
+ }
+
+ .phrase {
+   font-size: 1em;
+ }
+
+ .presentation-right {
+   float: right;
+ }
+ .text-content {
+   clear: both;
  }
 
 }
