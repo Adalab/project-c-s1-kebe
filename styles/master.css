@@ -5,7 +5,7 @@
 body {
   font-family: 'Roboto Slab', serif;
   font-style: normal;
-  font-size: 12px;
+  font-size: 16px;
   text-align: justify;
   margin-left: 5%;
   margin-right: 5%;
@@ -27,7 +27,7 @@ span {
   background-color: #555555;
   opacity: 0.8;
   color:white;
-  font-size: 1.6em;
+  font-size: 1.2em;
   font-family: sans-serif;
   z-index: 1;
   padding: 0 20px;
@@ -112,11 +112,7 @@ span {
   width: ;
   height: ;
 }
-.presentation-right {
-  display: flex;
-  flex-direction: column;
-  align-content: flex-end;
-}
+
 
 .role {
   font-family: 'Roboto', sans-serif;
@@ -178,7 +174,7 @@ text-align: right;
   text-align: right;
 }
 .final-section{
-  background-image: linear-gradient(to right,lightgray, white);
+  background-image: linear-gradient(to right,lightgray, lightgray);
   background-size: 100% auto;
   border-top: 5px solid #555555;
   background-position:top 40px left;
@@ -211,13 +207,13 @@ text-align: right;
 .resize2 {
   flex-direction: row;
   float: left;
-  margin: .2em 1em 1em 0;
+  margin: .2em 1em 1em 0em;
   width: 100%;
   height: auto;
 }
 
 .images {
-  width:20em;
+  width:15em;
 }
 
 .title-section-center{
@@ -260,6 +256,22 @@ text-align: right;
  .a-hidden-small:hover  {
    text-decoration: underline;
    color:#3CDBC0;
+ }
+
+ .kebe {
+   margin-top: -5%;
+   margin-bottom: 40px;
+ }
+
+ .phrase {
+   font-size: 1em;
+ }
+
+ .presentation-right {
+   float: right;
+ }
+ .text-content {
+   clear: both;
  }
 
 }
