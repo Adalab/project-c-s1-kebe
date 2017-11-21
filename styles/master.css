@@ -187,7 +187,7 @@ a {
   background-size: 100% auto;
   border-top: 5px solid #555555;
   background-position:top 40px left;
-  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-repeat: no-repeat;
   padding: 0 15px;
   margin-top: 25%;
 }
