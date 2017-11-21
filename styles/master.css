@@ -1,3 +1,5 @@
+/*MOBILE FIRST*/
+/*ESTILOS GENERALES*/
 * {
   box-sizing: border-box;
 }
@@ -15,6 +17,12 @@ span {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+
+a {
+  text-decoration: none;
+}
+
+/*HEADER*/
 .margin-header {
   margin-bottom: 20%;
 }
@@ -32,14 +40,15 @@ span {
   z-index: 1;
   padding: 0 20px;
 }
+
 .header-ul {
   width: 100%;
   color:white;
   padding: 0 10px;
   display: flex;
   justify-content: flex-end;
-
 }
+
 .hidden-large {
   display: flex;
   justify-content: flex-end;
@@ -63,18 +72,15 @@ span {
   color:#3CDBC0;
 }
 
+/*HERO*/
 .hero {
   margin: 130px 0;
 }
+
 .kebe {
   width: 100%;
   margin-top: 20%;
   margin-bottom: 150px;
-
-}
-
-.estela, .belen, .elena {
-  margin-top: 25%;
 }
 
 .phrase {
@@ -94,7 +100,7 @@ span {
   margin: 0;
 }
 
-
+/*FICHAS*/
 .title-section {
   font-family: 'Roboto', sans-serif;
   font-style: italic;
@@ -109,14 +115,7 @@ span {
   background-repeat: no-repeat;
   margin: 0;
   margin-top: 25%;
-
 }
-
-.member {
-  width: ;
-  height: ;
-}
-
 
 .role {
   font-family: 'Roboto', sans-serif;
@@ -146,10 +145,20 @@ span {
   text-decoration: none;
 }
 
-a {
-  text-decoration: none;
+.resize2 {
+  flex-direction: row;
+  float: left;
+  margin: .2em 1em 1em 0em;
+  width: 100%;
+  height: auto;
 }
 
+.images {
+  width:13em;
+  margin-top: 100px;
+}
+
+/*FORTALEZAS Y DEBILIDADES*/
 .right {
   display: flex;
   flex-wrap: wrap;
@@ -167,6 +176,7 @@ a {
   margin-top: -130px;
 }
 
+/*ADALABTEAM*/
 .title-section-center{
   font-family: 'Roboto', sans-serif;
   font-style: italic;
@@ -192,6 +202,7 @@ a {
   margin-top: 25%;
 }
 
+/*FOOTER*/
 .footer-kebe {
   background-color: #555555;
   width: 100%;
@@ -212,34 +223,13 @@ a {
   padding: 5px;
 }
 
-.resize2 {
-  flex-direction: row;
-  float: left;
-  margin: .2em 1em 1em 0em;
-  width: 100%;
-  height: auto;
-}
-
-.images {
-  width:13em;
-  margin-top: 100px;
-}
-
-.title-section-center{
-  font-family: 'Roboto', sans-serif;
-  font-style: italic;
-  font-weight: lighter;
-  font-size: 2.25em;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  text-align: center;
-
-}
-
+/*MEDIA TABLET*/
 @media all and (min-width: 720px) {
+
   .hidden-large {
     display: none;
   }
+
   .header-ul {
     display: flex;
     justify-content: space-between;
@@ -279,13 +269,15 @@ a {
   .presentation-right {
     float: right;
   }
+
   .text-content {
     clear: both;
   }
-
 }
 
+/*MEDIA DESKTOP*/
 @media all and (min-width: 1080px) {
+
   body {
     font-size: 18px;
   }
@@ -294,8 +286,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-
   }
+
   .kebe {
     max-width: 80%;
   }
